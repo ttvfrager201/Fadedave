@@ -73,7 +73,7 @@ export default function About() {
             <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/20 to-transparent rounded-2xl transform rotate-3"></div>
             <div className="relative bg-slate-800 rounded-2xl p-8 border border-blue-500/20">
               <img
-                src="https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://d2zdpiztbgorvt.cloudfront.net/region1/us/542444/biz_photo/977e8c3bfff64670bedd680831d289-barber-moon-biz-photo-d22f15c4b8864821bf55b9e44870ae-booksy.jpeg?size=640x427"
                 alt="Barbershop"
                 className="w-full h-96 object-cover rounded-lg mb-6"
               />
@@ -84,7 +84,7 @@ export default function About() {
                   <div className="text-sm text-gray-400">Years</div>
                 </div>
                 <div className="text-center p-4 bg-slate-900 rounded-lg border border-blue-500/20">
-                  <div className="text-3xl font-bold text-blue-400 mb-1">1000+</div>
+                  <div className="text-3xl font-bold text-blue-400 mb-1">500+</div>
                   <div className="text-sm text-gray-400">Clients</div>
                 </div>
                 <div className="text-center p-4 bg-slate-900 rounded-lg border border-blue-500/20">
