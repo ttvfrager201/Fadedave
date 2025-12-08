@@ -10,7 +10,14 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-slate-950">
-   <div className="absolute inset-0 bg-[url('https://lh3.googleusercontent.com/p/AF1QipO0n9b03UIovH32g2Gk3CoFrBX-qkBTv9v-ZVmR=s1360-w1360-h1020-rw')] bg-cover bg-[center_-450px] scale-100"></div>
+   <div className="
+  absolute inset-0 
+  bg-[url('https://lh3.googleusercontent.com/p/AF1QipO0n9b03UIovH32g2Gk3CoFrBX-qkBTv9v-ZVmR=s1360-w1360-h1020-rw')] 
+  bg-cover 
+  bg-center 
+  md:bg-[center_-450px] 
+  lg:bg-[center_-470px]
+"></div>
 
 
 
