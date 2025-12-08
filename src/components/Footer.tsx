@@ -14,11 +14,9 @@ export default function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-6">
-              <div className="bg-gradient-to-br from-blue-600 to-blue-700 p-2.5 rounded-xl">
-                <Scissors className="w-7 h-7 text-white" strokeWidth={1.5} />
-              </div>
+             
               <div>
-                <span className="text-2xl font-black text-white block">FADED AVE</span>
+                <span className="text-3xl font-black text-white block">FADED AVE</span>
                 <span className="text-xs text-blue-400 tracking-[0.2em]">BARBERSHOP</span>
               </div>
             </div>

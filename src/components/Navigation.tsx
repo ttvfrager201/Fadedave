@@ -34,13 +34,11 @@ export default function Navigation() {
           <a href="#home" className="flex items-center gap-3 group">
             <div className="relative">
               <div className="absolute inset-0 bg-blue-500/20 rounded-lg blur-lg group-hover:bg-blue-500/30 transition-all duration-300"></div>
-              <div className="relative bg-gradient-to-br from-blue-600 to-blue-700 p-2 rounded-lg">
-                <Scissors className="w-6 h-6 text-white" strokeWidth={1.5} />
-              </div>
+             
             </div>
             <div className="flex flex-col">
-              <span className="text-xl font-black text-white tracking-tight">FADED AVE</span>
-              <span className="text-[10px] text-blue-400 tracking-[0.2em] -mt-1">BARBERSHOP</span>
+              <span className="text-4xl font-black text-white tracking-tight">FADED AVE</span>
+              <span className="text-[15px] text-blue-400 tracking-[0.2em] -mt-1">BARBERSHOP</span>
             </div>
           </a>
 
