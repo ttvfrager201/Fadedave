@@ -10,8 +10,9 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-slate-950">
-      {/* Animated Background - More Visible */}
-      <div className="absolute inset-0 bg-[url('https://lh3.googleusercontent.com/p/AF1QipNMoJzs7BDsXjcFabJjxu7neIiDDNnTEk9uMekJ=s1920')] bg-cover bg-center scale-110 animate-slow-zoom"></div>
+   <div className="absolute inset-0 bg-[url('https://lh3.googleusercontent.com/p/AF1QipO0n9b03UIovH32g2Gk3CoFrBX-qkBTv9v-ZVmR=s1360-w1360-h1020-rw')] bg-cover bg-[center_-450px] scale-100"></div>
+
+
 
       {/* Premium Overlay Layers - More Transparent, Gradient from Left */}
       <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/50 to-transparent"></div>
@@ -62,9 +63,14 @@ export default function Hero() {
           </div>
 
           {/* Description */}
-          <p className={`text-lg text-gray-400 mb-10 transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+          <p className={`text-lg text-gray-400 mb-4 transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
             Premium cuts by an 8-year experienced licensed barber. Appointments available online, walk-ins always welcome.
           </p>
+
+          {/* Walk-in Pricing Note */}
+          <div className={`inline-flex items-center gap-2 px-4 py-2 bg-green-500/10 border border-green-500/30 rounded-lg mb-10 transition-all duration-1000 delay-550 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+            <span className="text-green-400 font-semibold text-sm">💰 Walk-in prices are cheaper!</span>
+          </div>
 
           {/* CTA Buttons */}
           <div className={`flex flex-col sm:flex-row gap-4 mb-12 transition-all duration-1000 delay-600 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
