@@ -74,43 +74,60 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Hours Card */}
-            <div className="group bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-xl border border-blue-500/10 rounded-2xl p-6 hover:border-blue-500/30 transition-all duration-500">
-              <div className="flex gap-5 items-start">
-                <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-blue-600/20 to-blue-500/10 rounded-xl flex items-center justify-center group-hover:from-blue-600/30 group-hover:to-blue-500/20 transition-all duration-300">
-                  <Clock className="w-7 h-7 text-blue-400" strokeWidth={1.5} />
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-xl font-bold text-white mb-3">Hours</h3>
-                  <div className="space-y-2">
-                    <div className="flex justify-between text-gray-400">
-                      <span>Monday</span>
-                      <span className="text-red-400 font-medium">Closed</span>
-                    </div>
-                    <div className="flex justify-between text-gray-400">
-                      <span>Tuesday - Thursday</span>
-                      <span className="text-white">10:00 AM - 8:00 PM</span>
-                    </div>
-                    <div className="flex justify-between text-gray-400">
-                      <span>Friday</span>
-                      <span className="text-white">10:00 AM - 9:00 PM</span>
-                    </div>
-                    <div className="flex justify-between text-gray-400">
-                      <span>Saturday</span>
-                      <span className="text-white">10:00 AM - 8:00 PM</span>
-                    </div>
-                    <div className="flex justify-between text-gray-400">
-                      <span>Sunday</span>
-                      <span className="text-white">12:00 PM - 6:00 PM</span>
-                    </div>
-                  </div>
-                  <div className="mt-4 flex items-center gap-2 text-green-400 font-semibold">
-                    <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-                    Walk-ins always welcome!
-                  </div>
-                </div>
-              </div>
-            </div>
+        {/* Hours Card */}
+<div className="group bg-gradient-to-br from-slate-800/90 to-slate-900/90 backdrop-blur-xl border border-blue-500/10 rounded-2xl p-6 hover:border-blue-500/30 transition-all duration-500">
+  <div className="flex gap-5 items-start">
+    <div className="flex-shrink-0 w-14 h-14 bg-gradient-to-br from-blue-600/20 to-blue-500/10 rounded-xl flex items-center justify-center group-hover:from-blue-600/30 group-hover:to-blue-500/20 transition-all duration-300">
+      <Clock className="w-7 h-7 text-blue-400" strokeWidth={1.5} />
+    </div>
+
+    <div className="flex-1">
+      <h3 className="text-xl font-bold text-white mb-3">Hours</h3>
+
+      <div className="space-y-2">
+        <div className="flex justify-between text-gray-400">
+          <span>Sunday</span>
+          <span className="text-white">11:00 AM – 8:00 PM</span>
+        </div>
+
+        <div className="flex justify-between text-gray-400">
+          <span>Monday</span>
+          <span className="text-white">11:00 AM – 8:00 PM</span>
+        </div>
+
+        <div className="flex justify-between text-gray-400">
+          <span>Tuesday</span>
+          <span className="text-white">11:00 AM – 8:00 PM</span>
+        </div>
+
+        <div className="flex justify-between text-gray-400">
+          <span>Wednesday</span>
+          <span className="text-white">11:00 AM – 8:00 PM</span>
+        </div>
+
+        <div className="flex justify-between text-gray-400">
+          <span>Thursday</span>
+          <span className="text-white">11:00 AM – 8:30 PM</span>
+        </div>
+
+        <div className="flex justify-between text-gray-400">
+          <span>Friday</span>
+          <span className="text-white">11:00 AM – 8:30 PM</span>
+        </div>
+
+        <div className="flex justify-between text-gray-400">
+          <span>Saturday</span>
+          <span className="text-white">11:00 AM – 8:00 PM</span>
+        </div>
+      </div>
+
+      <div className="mt-4 flex items-center gap-2 text-green-400 font-semibold">
+        <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
+        Walk-ins always welcome!
+      </div>
+    </div>
+  </div>
+</div>
 
             {/* Phone & Email Row */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
