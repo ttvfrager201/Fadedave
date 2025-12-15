@@ -108,7 +108,7 @@ export default function Hero() {
             </div>
             <div className="flex items-center gap-2 text-gray-400 bg-white/5 backdrop-blur-sm px-4 py-2 rounded-full border border-white/10">
               <Clock className="w-4 h-4 text-blue-400" />
-              <span className="text-sm">Tue-Sun Open</span>
+              <span className="text-sm">Mon-Sun Open</span>
             </div>
           </div>
 
