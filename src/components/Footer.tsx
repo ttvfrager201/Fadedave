@@ -75,34 +75,43 @@ export default function Footer() {
           </div>
 
           {/* Hours */}
-          <div>
-            <h3 className="text-white font-bold text-lg mb-6 flex items-center gap-2">
-              <Clock className="w-5 h-5 text-blue-400" />
-              Hours
-            </h3>
-            <ul className="space-y-2 text-sm">
-              <li className="flex justify-between text-gray-400">
-                <span>Monday</span>
-                <span className="text-red-400">Closed</span>
-              </li>
-              <li className="flex justify-between text-gray-400">
-                <span>Tue - Thu</span>
-                <span className="text-white">10AM - 8PM</span>
-              </li>
-              <li className="flex justify-between text-gray-400">
-                <span>Friday</span>
-                <span className="text-white">10AM - 9PM</span>
-              </li>
-              <li className="flex justify-between text-gray-400">
-                <span>Saturday</span>
-                <span className="text-white">10AM - 8PM</span>
-              </li>
-              <li className="flex justify-between text-gray-400">
-                <span>Sunday</span>
-                <span className="text-white">12PM - 6PM</span>
-              </li>
-            </ul>
-          </div>
+        <div>
+  <h3 className="text-white font-bold text-lg mb-6 flex items-center gap-2">
+    <Clock className="w-5 h-5 text-blue-400" />
+    Hours
+  </h3>
+
+  <ul className="space-y-2 text-sm">
+    <li className="flex justify-between text-gray-400">
+      <span>Monday</span>
+      <span className="text-white">11AM - 8PM</span>
+    </li>
+    <li className="flex justify-between text-gray-400">
+      <span>Tuesday</span>
+      <span className="text-white">11AM - 8PM</span>
+    </li>
+    <li className="flex justify-between text-gray-400">
+      <span>Wednesday</span>
+      <span className="text-white">11AM - 8PM</span>
+    </li>
+    <li className="flex justify-between text-gray-400">
+      <span>Thursday</span>
+      <span className="text-white">11AM - 8:30PM</span>
+    </li>
+    <li className="flex justify-between text-gray-400">
+      <span>Friday</span>
+      <span className="text-white">11AM - 8:30PM</span>
+    </li>
+    <li className="flex justify-between text-gray-400">
+      <span>Saturday</span>
+      <span className="text-white">11AM - 8PM</span>
+    </li>
+    <li className="flex justify-between text-gray-400">
+      <span>Sunday</span>
+      <span className="text-white">11AM - 8PM</span>
+    </li>
+  </ul>
+</div>
 
           {/* Contact */}
           <div>
